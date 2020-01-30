@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Menu, Header } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
-export const SettingsNav = () => {
+const SettingsNav = () => {
     return (
         <Fragment>
             <Menu vertical>
@@ -38,3 +38,5 @@ export const SettingsNav = () => {
         </Fragment>
     );
 };
+
+export default SettingsNav;
